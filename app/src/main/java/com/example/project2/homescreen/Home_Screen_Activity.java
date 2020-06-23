@@ -40,12 +40,12 @@ public class Home_Screen_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
 
         context             = this;
-        ll_steps            = (LinearLayout) findViewById(R.id.ll_steps);
-        card_steps          = (CardView) findViewById(R.id.card_view);
+        ll_steps            = findViewById(R.id.ll_steps);
+        card_steps          = findViewById(R.id.card_view);
 
-        tv_last_steps       = (TextView) findViewById(R.id.tv_last_steps);
-        tv_heading          = (TextView) findViewById(R.id.tv_heading);
-        tv_step_count       = (TextView) findViewById(R.id.tv_step_counter);
+        tv_last_steps       = findViewById(R.id.tv_last_steps);
+        tv_heading          = findViewById(R.id.tv_heading);
+        tv_step_count       = findViewById(R.id.tv_step_counter);
 
         reportModel         = new ReportModel();
         list_time           = new ArrayList<ReportModel>();
