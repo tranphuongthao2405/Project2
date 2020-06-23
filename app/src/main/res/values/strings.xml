@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Step Counter</string>
+
+    <string name="Total_Time" translatable="false">TOTAL TIME</string>
+    <string name="Action" translatable="false">Action</string>string>
+    <string name="Start" translatable="false">Start</string>
+    <string name="Stop" translatable="false">Stop</string>
+    <string name="Pause" translatable="false">Pause</string>
+
+    <string name="Prepare" translatable="false">Prepare...</string>
+
+    <string name="No" translatable="false">NO</string>
+    <string name="Level" translatable="false">LEVEL</string>
+    <string name="Date" translatable="false">DATE</string>
+    <string name="Date_time" translatable="false">DATE "  " TIME</string>
+    <string name="Report" translatable="false">Report</string>
+    <string name="Duration" translatable="false">DURATION</string>
+    <string name="Type" translatable="false">TYPE</string>
+    <string name="Day">Day</string>
+    <string name="Date_small">Date</string>
+
+    <string name="Steps">Steps</string>
+    <string name="Precautions">Precautions</string>
+    <string name="Total_time">Total Time</string>
+    <string name="Total_days_progress">Total Days</string>
+    <string name="Start_date">Start Date</string>
+    <string name="End_date">End Date</string>
+    <string name="Total_progress">Total Progress</string>
+    <string name="Level_progress">Level</string>
+
+    <string name="Congrats">Congratulations</string>
+    <string name="Come_back_tomorrow">Well done!</string>
+
+    <string name="Your_level">Your level</string>
+    <string name="Fitness_regime_21">of fitness plan for 21 days is completed. Your level</string>
+    <string name="Share_experience">will be started tomorrow. Share!</string>
+
+    <string name="Step_counter">Step Counter</string>
+    <string name="Last_steps">Last day steps</string>
+    <string name="Total_steps">Total Steps</string>
+    <string name="Step">Steps</string>
+    <string name="Max_Step">Max Steps</string>
+    <string name="Between_steps">Between 500 to 10000</string>
+    <string name="About">ABOUT</string>
+</resources>
