@@ -50,6 +50,15 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Click image below to start"
+            android:textSize="20sp"
+            android:textColor="@color/orange" />
+
         <androidx.cardview.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view"
@@ -72,35 +81,43 @@
                 android:id="@+id/ll_steps"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 android:paddingLeft="15dp"
                 android:background="@drawable/steps_banner">
 
                 <TextView
                     android:id="@+id/tv_step_counter"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
                     android:text="Step Counter"
                     android:textSize="22sp"
                     android:textColor="#a20b1c"
-                    android:layout_gravity="center"
-                    android:gravity="bottom|left"/>
+                    android:layout_margin="10dp"/>
                 <TextView
                     android:id="@+id/tv_last_steps"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:text="Last day steps: 0"
+                    android:text="Total steps: 0"
                     android:textSize="15sp"
-                    android:textColor="#353535"
-                    android:layout_gravity="center"
-                    android:gravity="top|left"/>
+                    android:layout_margin="10dp"
+                    android:padding="20dp"
+                    android:textColor="#353535" />
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run everyday to have a better shape! Wish you a good heath!"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/orange"
+        android:textStyle="italic"/>
 
 </LinearLayout>
