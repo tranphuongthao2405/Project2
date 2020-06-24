@@ -109,7 +109,7 @@
 
         </LinearLayout>
 
-        <com.stepcounter.charting.charts.PieChart
+        <com.example.project2.charting.charts.PieChart
             android:id="@+id/chart1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
