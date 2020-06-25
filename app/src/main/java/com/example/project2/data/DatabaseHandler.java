@@ -48,7 +48,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         }
         onCreate(db);
 
-    }  // method body finish
+    }
 
     public void addSteps(int steps, int max_steps, int total_time) {
         createTables();
@@ -90,7 +90,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 mlist.add(reportModel);
 
             } while (cursor.moveToNext());
-        }// if complete
+        }
 
         db.close();
         return mlist;

@@ -223,7 +223,7 @@ public class Step_Counter_Activity extends AppCompatActivity implements SensorEv
             // Low-pass filter to remove noise
             cachedAcceleration = (float) ((1 - ALPHA) * cachedAcceleration + ALPHA * sqrt(x * x + y * y + z * z));
 
-            // Copy new values into the cachedAccelerometer array (We didn't use these values for step counter)
+            // Copy new values into the cachedAccelerometer array
             System.arraycopy(sensorEvent.values, 0, cachedAccelerometer, 0, sensorEvent.values.length);
 
             // Peak is substantial enough to be correlated to a step
@@ -250,7 +250,7 @@ public class Step_Counter_Activity extends AppCompatActivity implements SensorEv
                     tv_steps_speed.setText(String.valueOf((numSteps * 60) / total_seconds) + " S/Min");
                     if (numSteps >= glsteps) {
                         v.vibrate(500);
-                        Toast.makeText(context, "You have Reached The Limit of Number of Steps You have Set Today!!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "You have reached the limit of number of steps you have set today!", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
